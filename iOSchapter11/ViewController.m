@@ -9,23 +9,32 @@
 #import "ViewController.h"
 #import "MyScene.h"
 
+@interface ViewController() <
+ImageCaptureDelegate,
+UINavigationControllerDelegate,
+UIImagePickerControllerDelegate>
+@end
+
 @implementation ViewController
 
-- (void)viewDidLoad
+- (void)viewWillLayoutSubviews
 {
-    [super viewDidLoad];
-
+    [super viewWillLayoutSubviews];
+    
     // Configure the view.
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
-    
-    // Create and configure the scene.
-    SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
-    
-    // Present the scene.
-    [skView presentScene:scene];
+    if (!skView.scene) {
+        skView.showsFPS = YES;
+        skView.showsNodeCount = YES;
+        
+        // Create and configure the scene.
+        MyScene * scene = [MyScene sceneWithSize:skView.bounds.size];
+        scene.delegate = self;
+        scene.scaleMode = SKSceneScaleModeAspectFill;
+        
+        // Present the scene.
+        [skView presentScene:scene];
+    }
 }
 
 - (BOOL)shouldAutorotate
@@ -35,17 +44,47 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return UIInterfaceOrientationMaskAllButUpsideDown;
-    } else {
-        return UIInterfaceOrientationMaskAll;
-    }
+    return UIInterfaceOrientationMaskLandscape;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
+}
+
+-(BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
+#pragma mark ImageCaptureDelegate methods
+- (void)requestImagePicker
+{
+    UIImagePickerController *imagePicker =
+    [[UIImagePickerController alloc] init];
+    imagePicker.delegate = self;
+    [self presentViewController:imagePicker animated:YES
+                     completion:nil];
+}
+
+#pragma mark UIImagePickerControllerDelegate methods
+- (void)imagePickerController:(UIImagePickerController *)picker
+didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    //1
+    UIImage *image =
+    [info objectForKey:@"UIImagePickerControllerOriginalImage"];
+    //2
+    [picker dismissViewControllerAnimated:YES completion:^{
+        //3
+        SKTexture *imageTexture =[SKTexture textureWithImage:image];
+        //4
+        SKView *view = (SKView *)self.view;
+        MyScene *currentScene = (MyScene *)[view scene];
+        //Place core image code here
+        [currentScene setPhotoTexture:imageTexture];
+    }];
 }
 
 @end

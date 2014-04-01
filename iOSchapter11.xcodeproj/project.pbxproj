@@ -24,6 +24,36 @@
 		BF325AB618EA62B1002C8D77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF325A9118EA62B0002C8D77 /* UIKit.framework */; };
 		BF325ABE18EA62B1002C8D77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF325ABC18EA62B1002C8D77 /* InfoPlist.strings */; };
 		BF325AC018EA62B1002C8D77 /* iOSchapter11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF325ABF18EA62B1002C8D77 /* iOSchapter11Tests.m */; };
+		BF325ACE18EA63A1002C8D77 /* SKSpriteNode+DebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = BF325ACA18EA63A1002C8D77 /* SKSpriteNode+DebugDraw.m */; };
+		BF325ACF18EA63A1002C8D77 /* OldTVNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BF325ACC18EA63A1002C8D77 /* OldTVNode.m */; };
+		BF325AD118EA63B7002C8D77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF325AD018EA63B7002C8D77 /* Images.xcassets */; };
+		BF325AEC18EA63D7002C8D77 /* background-desat.png in Resources */ = {isa = PBXBuildFile; fileRef = BF325AD418EA63D7002C8D77 /* background-desat.png */; };
+		BF325AED18EA63D7002C8D77 /* background-desat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF325AD518EA63D7002C8D77 /* background-desat@2x.png */; };
+		BF325AEE18EA63D7002C8D77 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BF325AD618EA63D7002C8D77 /* background.png */; };
+		BF325AEF18EA63D7002C8D77 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF325AD718EA63D7002C8D77 /* background@2x.png */; };
+		BF325AF018EA63D7002C8D77 /* perlin.c in Sources */ = {isa = PBXBuildFile; fileRef = BF325AD918EA63D7002C8D77 /* perlin.c */; };
+		BF325AF118EA63D7002C8D77 /* level1.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF325ADC18EA63D7002C8D77 /* level1.plist */; };
+		BF325AF218EA63D7002C8D77 /* level2.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF325ADD18EA63D7002C8D77 /* level2.plist */; };
+		BF325AF318EA63D7002C8D77 /* level3.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF325ADE18EA63D7002C8D77 /* level3.plist */; };
+		BF325AF418EA63D7002C8D77 /* level4.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF325ADF18EA63D7002C8D77 /* level4.plist */; };
+		BF325AF518EA63D7002C8D77 /* level5.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF325AE018EA63D7002C8D77 /* level5.plist */; };
+		BF325AF618EA63D7002C8D77 /* level6.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF325AE118EA63D7002C8D77 /* level6.plist */; };
+		BF325AF718EA63D7002C8D77 /* level7.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF325AE218EA63D7002C8D77 /* level7.plist */; };
+		BF325AF818EA63D7002C8D77 /* bgMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF325AE418EA63D7002C8D77 /* bgMusic.mp3 */; };
+		BF325AF918EA63D7002C8D77 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF325AE518EA63D7002C8D77 /* lose.mp3 */; };
+		BF325AFA18EA63D7002C8D77 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF325AE618EA63D7002C8D77 /* pop.mp3 */; };
+		BF325AFB18EA63D7002C8D77 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF325AE718EA63D7002C8D77 /* win.mp3 */; };
+		BF325AFC18EA63D7002C8D77 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BF325AE818EA63D7002C8D77 /* sprites.atlas */; };
+		BF325AFD18EA63D7002C8D77 /* BookTrailer.m4v in Resources */ = {isa = PBXBuildFile; fileRef = BF325AEA18EA63D7002C8D77 /* BookTrailer.m4v */; };
+		BF325AFE18EA63D7002C8D77 /* loop.mov in Resources */ = {isa = PBXBuildFile; fileRef = BF325AEB18EA63D7002C8D77 /* loop.mov */; };
+		BF325B0218EA63E1002C8D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF325B0018EA63E1002C8D77 /* Main.storyboard */; };
+		BF325B0418EA63EC002C8D77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF325B0318EA63EC002C8D77 /* Images.xcassets */; };
+		BF325B1018EA6400002C8D77 /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = BF325B0718EA6400002C8D77 /* SKAction+SKTExtras.m */; };
+		BF325B1118EA6400002C8D77 /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = BF325B0918EA6400002C8D77 /* SKEmitterNode+SKTExtras.m */; };
+		BF325B1218EA6400002C8D77 /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = BF325B0B18EA6400002C8D77 /* SKNode+SKTExtras.m */; };
+		BF325B1318EA6400002C8D77 /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = BF325B0D18EA6400002C8D77 /* SKTAudio.m */; };
+		BF325B1418EA6400002C8D77 /* SKTUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF325B0F18EA6400002C8D77 /* SKTUtils.mm */; };
+		BF325B1818EA641E002C8D77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF325B1618EA641E002C8D77 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +90,45 @@
 		BF325ABB18EA62B1002C8D77 /* iOSchapter11Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSchapter11Tests-Info.plist"; sourceTree = "<group>"; };
 		BF325ABD18EA62B1002C8D77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF325ABF18EA62B1002C8D77 /* iOSchapter11Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSchapter11Tests.m; sourceTree = "<group>"; };
+		BF325AC918EA63A1002C8D77 /* SKSpriteNode+DebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKSpriteNode+DebugDraw.h"; sourceTree = "<group>"; };
+		BF325ACA18EA63A1002C8D77 /* SKSpriteNode+DebugDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKSpriteNode+DebugDraw.m"; sourceTree = "<group>"; };
+		BF325ACB18EA63A1002C8D77 /* OldTVNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldTVNode.h; sourceTree = "<group>"; };
+		BF325ACC18EA63A1002C8D77 /* OldTVNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldTVNode.m; sourceTree = "<group>"; };
+		BF325ACD18EA63A1002C8D77 /* Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Physics.h; sourceTree = "<group>"; };
+		BF325AD018EA63B7002C8D77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../Desktop/Parsons/iSO/iOS Games By Tutorials 2/Chapter 11 - Crop Video and Shape Nodes/CatNap-Challenge1/CatNap/Images.xcassets"; sourceTree = "<group>"; };
+		BF325AD418EA63D7002C8D77 /* background-desat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-desat.png"; sourceTree = "<group>"; };
+		BF325AD518EA63D7002C8D77 /* background-desat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-desat@2x.png"; sourceTree = "<group>"; };
+		BF325AD618EA63D7002C8D77 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		BF325AD718EA63D7002C8D77 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		BF325AD918EA63D7002C8D77 /* perlin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = perlin.c; sourceTree = "<group>"; };
+		BF325ADA18EA63D7002C8D77 /* perlin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = perlin.h; sourceTree = "<group>"; };
+		BF325ADC18EA63D7002C8D77 /* level1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level1.plist; sourceTree = "<group>"; };
+		BF325ADD18EA63D7002C8D77 /* level2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level2.plist; sourceTree = "<group>"; };
+		BF325ADE18EA63D7002C8D77 /* level3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level3.plist; sourceTree = "<group>"; };
+		BF325ADF18EA63D7002C8D77 /* level4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level4.plist; sourceTree = "<group>"; };
+		BF325AE018EA63D7002C8D77 /* level5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level5.plist; sourceTree = "<group>"; };
+		BF325AE118EA63D7002C8D77 /* level6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level6.plist; sourceTree = "<group>"; };
+		BF325AE218EA63D7002C8D77 /* level7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level7.plist; sourceTree = "<group>"; };
+		BF325AE418EA63D7002C8D77 /* bgMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgMusic.mp3; sourceTree = "<group>"; };
+		BF325AE518EA63D7002C8D77 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		BF325AE618EA63D7002C8D77 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		BF325AE718EA63D7002C8D77 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		BF325AE818EA63D7002C8D77 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		BF325AEA18EA63D7002C8D77 /* BookTrailer.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = BookTrailer.m4v; sourceTree = "<group>"; };
+		BF325AEB18EA63D7002C8D77 /* loop.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = loop.mov; sourceTree = "<group>"; };
+		BF325B0118EA63E1002C8D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		BF325B0318EA63EC002C8D77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../Desktop/Parsons/iSO/iOS Games By Tutorials 2/Chapter 11 - Crop Video and Shape Nodes/CatNap-Challenge1/CatNap/Images.xcassets"; sourceTree = "<group>"; };
+		BF325B0618EA6400002C8D77 /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		BF325B0718EA6400002C8D77 /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		BF325B0818EA6400002C8D77 /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		BF325B0918EA6400002C8D77 /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		BF325B0A18EA6400002C8D77 /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		BF325B0B18EA6400002C8D77 /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		BF325B0C18EA6400002C8D77 /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		BF325B0D18EA6400002C8D77 /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		BF325B0E18EA6400002C8D77 /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		BF325B0F18EA6400002C8D77 /* SKTUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SKTUtils.mm; sourceTree = "<group>"; };
+		BF325B1718EA641E002C8D77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +159,17 @@
 		BF325A8118EA62AD002C8D77 = {
 			isa = PBXGroup;
 			children = (
+				BF325B1518EA641E002C8D77 /* en.lproj */,
+				BF325B0518EA6400002C8D77 /* SKTUtils */,
+				BF325B0318EA63EC002C8D77 /* Images.xcassets */,
+				BF325AFF18EA63E1002C8D77 /* Base.lproj */,
+				BF325AD218EA63D7002C8D77 /* Art */,
+				BF325AD018EA63B7002C8D77 /* Images.xcassets */,
+				BF325AC918EA63A1002C8D77 /* SKSpriteNode+DebugDraw.h */,
+				BF325ACA18EA63A1002C8D77 /* SKSpriteNode+DebugDraw.m */,
+				BF325ACB18EA63A1002C8D77 /* OldTVNode.h */,
+				BF325ACC18EA63A1002C8D77 /* OldTVNode.m */,
+				BF325ACD18EA63A1002C8D77 /* Physics.h */,
 				BF325A9518EA62B0002C8D77 /* iOSchapter11 */,
 				BF325AB918EA62B1002C8D77 /* iOSchapter11Tests */,
 				BF325A8C18EA62B0002C8D77 /* Frameworks */,
@@ -162,6 +242,110 @@
 				BF325ABC18EA62B1002C8D77 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF325AD218EA63D7002C8D77 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				BF325AD318EA63D7002C8D77 /* Backgrounds */,
+				BF325AD818EA63D7002C8D77 /* Code */,
+				BF325ADB18EA63D7002C8D77 /* Levels */,
+				BF325AE318EA63D7002C8D77 /* Sounds */,
+				BF325AE818EA63D7002C8D77 /* sprites.atlas */,
+				BF325AE918EA63D7002C8D77 /* Videos */,
+			);
+			name = Art;
+			path = "../../Desktop/Parsons/iSO/iOS Games By Tutorials 2/Chapter 11 - Crop Video and Shape Nodes/CatNap-Challenge1/CatNap/Art";
+			sourceTree = "<group>";
+		};
+		BF325AD318EA63D7002C8D77 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				BF325AD418EA63D7002C8D77 /* background-desat.png */,
+				BF325AD518EA63D7002C8D77 /* background-desat@2x.png */,
+				BF325AD618EA63D7002C8D77 /* background.png */,
+				BF325AD718EA63D7002C8D77 /* background@2x.png */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		BF325AD818EA63D7002C8D77 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				BF325AD918EA63D7002C8D77 /* perlin.c */,
+				BF325ADA18EA63D7002C8D77 /* perlin.h */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		BF325ADB18EA63D7002C8D77 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				BF325ADC18EA63D7002C8D77 /* level1.plist */,
+				BF325ADD18EA63D7002C8D77 /* level2.plist */,
+				BF325ADE18EA63D7002C8D77 /* level3.plist */,
+				BF325ADF18EA63D7002C8D77 /* level4.plist */,
+				BF325AE018EA63D7002C8D77 /* level5.plist */,
+				BF325AE118EA63D7002C8D77 /* level6.plist */,
+				BF325AE218EA63D7002C8D77 /* level7.plist */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		BF325AE318EA63D7002C8D77 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BF325AE418EA63D7002C8D77 /* bgMusic.mp3 */,
+				BF325AE518EA63D7002C8D77 /* lose.mp3 */,
+				BF325AE618EA63D7002C8D77 /* pop.mp3 */,
+				BF325AE718EA63D7002C8D77 /* win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		BF325AE918EA63D7002C8D77 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				BF325AEA18EA63D7002C8D77 /* BookTrailer.m4v */,
+				BF325AEB18EA63D7002C8D77 /* loop.mov */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		BF325AFF18EA63E1002C8D77 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				BF325B0018EA63E1002C8D77 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = "../../Desktop/Parsons/iSO/iOS Games By Tutorials 2/Chapter 11 - Crop Video and Shape Nodes/CatNap-Challenge1/CatNap/Base.lproj";
+			sourceTree = "<group>";
+		};
+		BF325B0518EA6400002C8D77 /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				BF325B0618EA6400002C8D77 /* SKAction+SKTExtras.h */,
+				BF325B0718EA6400002C8D77 /* SKAction+SKTExtras.m */,
+				BF325B0818EA6400002C8D77 /* SKEmitterNode+SKTExtras.h */,
+				BF325B0918EA6400002C8D77 /* SKEmitterNode+SKTExtras.m */,
+				BF325B0A18EA6400002C8D77 /* SKNode+SKTExtras.h */,
+				BF325B0B18EA6400002C8D77 /* SKNode+SKTExtras.m */,
+				BF325B0C18EA6400002C8D77 /* SKTAudio.h */,
+				BF325B0D18EA6400002C8D77 /* SKTAudio.m */,
+				BF325B0E18EA6400002C8D77 /* SKTUtils.h */,
+				BF325B0F18EA6400002C8D77 /* SKTUtils.mm */,
+			);
+			name = SKTUtils;
+			path = "../../Desktop/Parsons/iSO/iOS Games By Tutorials 2/Chapter 11 - Crop Video and Shape Nodes/CatNap-Challenge1/CatNap/SKTUtils";
+			sourceTree = "<group>";
+		};
+		BF325B1518EA641E002C8D77 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				BF325B1618EA641E002C8D77 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = "../../Desktop/Parsons/iSO/iOS Games By Tutorials 2/Chapter 11 - Crop Video and Shape Nodes/CatNap-Challenge1/CatNap/en.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +425,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF325A9A18EA62B0002C8D77 /* InfoPlist.strings in Resources */,
+				BF325B0418EA63EC002C8D77 /* Images.xcassets in Resources */,
+				BF325AEF18EA63D7002C8D77 /* background@2x.png in Resources */,
+				BF325B1818EA641E002C8D77 /* InfoPlist.strings in Resources */,
+				BF325AF418EA63D7002C8D77 /* level4.plist in Resources */,
+				BF325B0218EA63E1002C8D77 /* Main.storyboard in Resources */,
+				BF325AF818EA63D7002C8D77 /* bgMusic.mp3 in Resources */,
+				BF325AFD18EA63D7002C8D77 /* BookTrailer.m4v in Resources */,
+				BF325AF518EA63D7002C8D77 /* level5.plist in Resources */,
+				BF325AEE18EA63D7002C8D77 /* background.png in Resources */,
+				BF325AF718EA63D7002C8D77 /* level7.plist in Resources */,
+				BF325AFE18EA63D7002C8D77 /* loop.mov in Resources */,
+				BF325AFC18EA63D7002C8D77 /* sprites.atlas in Resources */,
+				BF325AD118EA63B7002C8D77 /* Images.xcassets in Resources */,
+				BF325AED18EA63D7002C8D77 /* background-desat@2x.png in Resources */,
 				BF325AAD18EA62B1002C8D77 /* Images.xcassets in Resources */,
+				BF325AEC18EA63D7002C8D77 /* background-desat.png in Resources */,
+				BF325AFA18EA63D7002C8D77 /* pop.mp3 in Resources */,
+				BF325AF918EA63D7002C8D77 /* lose.mp3 in Resources */,
+				BF325AF118EA63D7002C8D77 /* level1.plist in Resources */,
 				BF325AAB18EA62B1002C8D77 /* Spaceship.png in Resources */,
+				BF325AFB18EA63D7002C8D77 /* win.mp3 in Resources */,
+				BF325AF318EA63D7002C8D77 /* level3.plist in Resources */,
+				BF325AF618EA63D7002C8D77 /* level6.plist in Resources */,
+				BF325AF218EA63D7002C8D77 /* level2.plist in Resources */,
 				BF325AA318EA62B0002C8D77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +470,16 @@
 			files = (
 				BF325AA918EA62B1002C8D77 /* MyScene.m in Sources */,
 				BF325AA618EA62B0002C8D77 /* ViewController.m in Sources */,
+				BF325B1118EA6400002C8D77 /* SKEmitterNode+SKTExtras.m in Sources */,
+				BF325ACE18EA63A1002C8D77 /* SKSpriteNode+DebugDraw.m in Sources */,
+				BF325ACF18EA63A1002C8D77 /* OldTVNode.m in Sources */,
 				BF325AA018EA62B0002C8D77 /* AppDelegate.m in Sources */,
 				BF325A9C18EA62B0002C8D77 /* main.m in Sources */,
+				BF325B1318EA6400002C8D77 /* SKTAudio.m in Sources */,
+				BF325AF018EA63D7002C8D77 /* perlin.c in Sources */,
+				BF325B1018EA6400002C8D77 /* SKAction+SKTExtras.m in Sources */,
+				BF325B1418EA6400002C8D77 /* SKTUtils.mm in Sources */,
+				BF325B1218EA6400002C8D77 /* SKNode+SKTExtras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +522,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				BF325ABD18EA62B1002C8D77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF325B0018EA63E1002C8D77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF325B0118EA63E1002C8D77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF325B1618EA641E002C8D77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF325B1718EA641E002C8D77 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
